@@ -7,3 +7,4 @@ a cheetsheet to create a repo with commands
 4. ```git remote add origin <link copy from ssh>```
 5. ```git pull --rebase```
 6. ```git pull origin master```
+7. ```git branch --set-upstream-to=origin/master master```
