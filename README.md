@@ -13,4 +13,4 @@ a cheetsheet to create a repo with commands
 alternative approach:
 
 1. create an online repo
-2. git clone <link copy from ssh>
+2. ```git clone <link copy from ssh>```
