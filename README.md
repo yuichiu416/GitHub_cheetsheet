@@ -19,5 +19,5 @@ alternative approach:
 1. do coding as usual
 1.5 ```git status``` (the step is not required)
 2. ```git add .```
-3. ```git commit -m "<commit message>"
+3. ```git commit -m "<commit message>"```
 4. ```git push ```
