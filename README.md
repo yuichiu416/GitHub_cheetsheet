@@ -24,7 +24,9 @@ Alternative approach:
 # Set up SSH key
 1. ```ssh-keygen -t rsa```
 2. Go to Github->Settings->SSH and GPG keys->New SSH key
-3. Copies the contents of the id_rsa.pub file to your clipboard by typing
-```cat < ~/.ssh/id_rsa.pub``` on mac/Linux
-```clip < %HOMEPATH%\.ssh\id_rsa.pub``` on Windows
-4. Save
+3. Copies the contents of the id_rsa.pub file to your clipboard by typing the following command: <br />
+   on Mac/Linux<br />
+   ```cat < ~/.ssh/id_rsa.pub```<br />
+   on Windows <br />
+   ```clip < %HOMEPATH%\.ssh\id_rsa.pub```<br />
+ 4. Save
