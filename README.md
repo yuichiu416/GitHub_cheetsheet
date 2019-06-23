@@ -13,3 +13,11 @@ alternative approach:
 
 1. create an online repo
 2. ```git clone <link copy from ssh>```
+
+# how to push
+
+1. do coding as usual
+1.5 ```git status``` (the step is not required)
+2. ```git add .```
+3. ```git commit -m "<commit message>"
+4. ```git push ```
