@@ -17,8 +17,7 @@ alternative approach:
 # how to push
 
 1. do coding as usual
-
-1.5 ```git status``` (the step is not required)
-2. ```git add .```
-3. ```git commit -m "<commit message>"```
-4. ```git push ```
+2. ```git status``` (the step is not required)
+3. ```git add .```
+4. ```git commit -m "<commit message>"```
+5. ```git push ```
