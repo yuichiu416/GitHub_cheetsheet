@@ -4,7 +4,8 @@ A cheetsheet with some basic GitHub stuff
 1. Create an online repo
 2. Create a local directory
 3. In the directory, ```git init```
-4. ```git remote add origin <link copy from ssh>```
+4. ```git remote add origin <link copied from ssh>```
+![SSH](./CloneWithSSH.jpb "Make sure it's SSH not link")
 5. ```git pull origin master --rebase```
 6. ```git branch --set-upstream-to=origin/master master```
 
@@ -12,7 +13,7 @@ A cheetsheet with some basic GitHub stuff
 Alternative approach:
 
 1. Create an online repo
-2. ```git clone <link copy from ssh>```
+2. ```git clone <link copied from ssh>```
 
 # How to push
 
