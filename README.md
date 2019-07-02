@@ -33,3 +33,6 @@ Alternative approach:
    on Mac/Linux: ```cat < ~/.ssh/id_rsa.pub```<br />
    on Windows: ```clip < %HOMEPATH%\.ssh\id_rsa.pub```<br />
  4. Save
+ 
+ # Remove 
+`git rm -r --cached <folder>`
