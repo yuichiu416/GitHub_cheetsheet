@@ -5,7 +5,7 @@ A cheetsheet with some basic GitHub stuff
 2. Create a local directory
 3. In the directory, ```git init```
 4. ```git remote add origin <link copied from ssh>```
-![SSH](./CloneWithSSH.jpb "Make sure it's SSH not link")
+![SSH](./CloneWithSSH.jpg "Make sure it's SSH not link")
 5. ```git pull origin master --rebase```
 6. ```git branch --set-upstream-to=origin/master master```
 
