@@ -39,5 +39,3 @@ Alternative approach:
    on Windows: ```clip < %HOMEPATH%\.ssh\id_rsa.pub```<br />
  4. Save
  
- # Remove tracked files
-`git rm -r --cached <folder>`
