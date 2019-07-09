@@ -1,3 +1,8 @@
+![cheetsheet1](./cheetsheet1.jpg "sheetsheet1")
+
+![cheetsheet2](./cheetsheet2.jpg "sheetsheet2")
+
+
 # Create_repo_steps
 A cheetsheet with some basic GitHub stuff
 
