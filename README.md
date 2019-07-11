@@ -1,6 +1,6 @@
-![cheetsheet1](./cheetsheet1.jpg "sheetsheet1")
+![cheetsheet1](./cheetsheet1.jpg "cheetsheet1")
 
-![cheetsheet2](./cheetsheet2.jpg "sheetsheet2")
+![cheetsheet2](./cheetsheet2.jpg "cheetsheet2")
 
 
 # Create_repo_steps
@@ -39,3 +39,6 @@ Alternative approach:
    on Windows: ```clip < %HOMEPATH%\.ssh\id_rsa.pub```<br />
  4. Save
  
+
+# SQL cheetsheet
+![SQL Cheetsheet](./sql-cheetsheet.jpg "sql-cheetsheet")
