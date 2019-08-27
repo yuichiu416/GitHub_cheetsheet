@@ -32,7 +32,7 @@ A cheetsheet with some basic GitHub stuff
 4. ```git push ```
 
 # Set up SSH key
-1. ```ssh-keygen -t rsa```
+1. ```ssh-keygen -t rsa```, hit enter all the way until the terminal is happy. 
 2. Go to Github->Settings->SSH and GPG keys->New SSH key
 3. Copies the contents of the id_rsa.pub file to your clipboard by typing the following command: <br />
    on Mac/Linux: ```cat < ~/.ssh/id_rsa.pub```<br />
