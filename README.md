@@ -18,6 +18,17 @@ A cheetsheet with some basic GitHub stuff
 5. ```git pull origin master --rebase```
 6. ```git branch --set-upstream-to=origin/master master```
 
+Note: If you see an error message like : 
+
+```Warning: Permanently added the RSA host key for IP address 'xxx.xxx.xx.3' to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+It's very likely that you don't have the ssh key set up properly. Please go to [Set up SSH key](#set-up-ssh-key)
+
 
 ### Alternative approach:
 
@@ -31,7 +42,9 @@ A cheetsheet with some basic GitHub stuff
 3. ```git commit -m "<commit message>"```
 4. ```git push ```
 
+
 # Set up SSH key
+
 1. ```ssh-keygen -t rsa```, hit enter all the way until the terminal is happy. 
 2. Go to Github->Settings->SSH and GPG keys->New SSH key
 3. Copies the contents of the id_rsa.pub file to your clipboard by typing the following command: <br />
