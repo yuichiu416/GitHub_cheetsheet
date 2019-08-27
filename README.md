@@ -18,7 +18,13 @@ A cheetsheet with some basic GitHub stuff
 5. ```git pull origin master --rebase```
 6. ```git branch --set-upstream-to=origin/master master```
 
-Note: If you see an error message like : 
+Note1: If you see an error message like:   
+
+```fatal: refusing to merge unrelated histories```
+
+You can try the command ```git pull --allow-unrelated-histories```
+
+Note2: If you see an error message like: 
 
 ```Warning: Permanently added the RSA host key for IP address 'xxx.xxx.xx.3' to the list of known hosts.
 Permission denied (publickey).
