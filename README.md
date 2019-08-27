@@ -19,7 +19,7 @@ A cheetsheet with some basic GitHub stuff
 6. ```git branch --set-upstream-to=origin/master master```
 
 
-Alternative approach:
+### Alternative approach:
 
 1. Create an online repo
 2. ```git clone <link copied from ssh>```
