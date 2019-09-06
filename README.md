@@ -1,3 +1,6 @@
+
+
+
 ![cheetsheet1](./cheetsheet1.jpg "cheetsheet1")
 
 ![cheetsheet2](./cheetsheet2.jpg "cheetsheet2")
@@ -52,10 +55,10 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 
 # Set up SSH key
 
-1.``ssh-keygen -t rsa`, hit enter all the way until the terminal is happy. 
-2. Copies the contents of the id_rsa.pub file to your clipboard by typing the following command: <br />
-   on Mac/Linux: `cat < ~/.ssh/id_rsa.pu``<br />
-   on Windows: `clip < %HOMEPATH%\.ssh\id_rsa.pub`<br />
+1. `ssh-keygen -t rsa`, hit enter all the way until the terminal is happy. 
+2. Copy the contents of the id_rsa.pub file to your clipboard by typing the following command: <br/>
+   on Mac/Linux: `cat < ~/.ssh/id_rsa.pu` <br />
+   on Windows: `clip < %HOMEPATH%\.ssh\id_rsa.pub`<br />`
 3. Go to Github->Settings->SSH and GPG keys->New SSH key, save the key you copied from the id_rsa_pub file
  
 
