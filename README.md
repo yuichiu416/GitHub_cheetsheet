@@ -7,9 +7,9 @@
 
 
 ## Create repo steps
-### Create an online repo *WITH* readme file. 
+### Create an online repo *WITH* a readme file. 
 
-1. Create an online repo **WITH** readme file. 
+1. Create an online repo **WITH** a readme file. 
 2. Create a local directory
 3. In the directory, `git init`
 4. `git remote add origin <link copied from ssh>`
@@ -20,9 +20,9 @@
 ![SSH](./CloneWithSSH.jpg "clone with ssh")
 
 
-### Create an online repo *WITHOUT* readme file. 
+### Create an online repo *WITHOUT* a readme file. 
 
-1. Create an online repo **WITHOUT** readme file. 
+1. Create an online repo **WITHOUT** a readme file. 
 2. Create a local directory
 3. In the directory, `git init`
 4. `git remote add origin <link copied from ssh>`
