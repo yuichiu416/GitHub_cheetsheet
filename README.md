@@ -6,8 +6,8 @@
 ![cheetsheet2](./cheetsheet2.jpg "cheetsheet2")
 
 
-# Create repo steps
-## Create an online repo **WITH** readme file. 
+## Create repo steps
+### Create an online repo *WITH* readme file. 
 
 1. Create an online repo **WITH** readme file. 
 2. Create a local directory
@@ -20,7 +20,7 @@
 ![SSH](./CloneWithSSH.jpg "clone with ssh")
 
 
-## Create an online repo **WITHOUT** readme file. 
+### Create an online repo *WITHOUT* readme file. 
 
 1. Create an online repo **WITHOUT** readme file. 
 2. Create a local directory
