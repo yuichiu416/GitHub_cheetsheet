@@ -74,4 +74,4 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
  
 
 # SQL cheetsheet
-![SQL Cheetsheet](./sql-cheetsheet.jpg "sql-cheetsheet")
+![SQL Cheetsheet](./SQLCheetSheet.jpg "SQLCheetSheet")
