@@ -56,7 +56,7 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 1. Create an online repo
 2. `git clone <link copied from ssh>`
 
-# How to push
+## How to push
 
 1. `git status` (the step is not required)
 2. `git add .`
@@ -64,7 +64,7 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 4. `git push `
 
 
-# Set up SSH key
+## Set up SSH key
 
 1. `ssh-keygen -t rsa`, keep hitting enter until the terminal is happy. 
 2. Copy the contents of the id_rsa.pub file to your clipboard by typing the following command: <br/>
@@ -72,6 +72,8 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
    on Windows: `clip < %HOMEPATH%\.ssh\id_rsa.pub`<br/>
 3. Go to Github->Settings->SSH and GPG keys->New SSH key, save the key you copied from the id_rsa_pub file
  
+ ## Delete a remote branch
+ `git push origin --delete <branch_name>`
 
-# SQL cheetsheet
+## SQL cheetsheet
 ![SQL Cheetsheet](./SQLCheetSheet.jpg "SQLCheetSheet")
