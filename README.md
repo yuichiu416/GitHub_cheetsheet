@@ -72,8 +72,12 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
    on Windows: `clip < %HOMEPATH%\.ssh\id_rsa.pub`<br/>
 3. Go to Github->Settings->SSH and GPG keys->New SSH key, save the key you copied from the id_rsa_pub file
  
- ## Delete a remote branch
- `git push origin --delete <branch_name>`
+## Delete a remote branch
+`git push origin --delete <branch_name>`
+
+## Create a branch that's tracking the remote one
+`git checkout --track origin/<branch_name>`
 
 ## SQL cheetsheet
 ![SQL Cheetsheet](./SQLCheetSheet.jpg "SQLCheetSheet")
+
