@@ -78,6 +78,12 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 ## Create a branch that's tracking the remote one
 `git checkout --track origin/<branch_name>`
 
+## Edit last commit message
+`git commit --amend`
+
+## Undo last commit
+`git reset --soft HEAD~1`
+
 ## SQL cheetsheet
 ![SQL Cheetsheet](./SQLCheetSheet.jpg "SQLCheetSheet")
 
