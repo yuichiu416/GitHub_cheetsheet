@@ -84,6 +84,21 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 ## Undo last commit
 `git reset --soft HEAD~1`
 
+## Reset a single file
+`git checkout -- <filename>`
+
+## Update the local list of remote branches
+`git remote update origin --prune`
+
+
+
+
+
+
+
+
+
+
 ## SQL cheetsheet
 ![SQL Cheetsheet](./SQLCheetSheet.jpg "SQLCheetSheet")
 
