@@ -68,7 +68,7 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 
 1. `ssh-keygen -t rsa`, keep hitting enter until the terminal is happy. 
 2. Copy the contents of the id_rsa.pub file to your clipboard by typing the following command: <br/>
-   on Mac/Linux: `cat < ~/.ssh/id_rsa.pu` <br/>
+   on Mac/Linux: `cat < ~/.ssh/id_rsa.pub` | pbcopy<br/>
    on Windows: `clip < %HOMEPATH%\.ssh\id_rsa.pub`<br/>
 3. Go to Github->Settings->SSH and GPG keys->New SSH key, save the key you copied from the id_rsa_pub file
  
@@ -90,9 +90,11 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 ## Update the local list of remote branches
 `git remote update origin --prune`
 
+## Compare difference against a remote branch
+`git diff <masterbranch_path> <remotebranch_path>`
 
-
-
+## Remove all tracked files
+`git rm -r --cached .`
 
 
 
