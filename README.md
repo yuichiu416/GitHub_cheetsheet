@@ -96,6 +96,8 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 ## Remove all tracked files
 `git rm -r --cached .`
 
+## Change defualt editor
+`git config --global core.editor "vim"`
 
 
 
