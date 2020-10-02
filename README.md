@@ -99,7 +99,8 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 ## Change defualt editor
 `git config --global core.editor "vim"`
 
-
+## Change terminal color
+`git config --global color.ui auto`
 
 
 
