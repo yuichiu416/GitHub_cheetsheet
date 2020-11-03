@@ -102,6 +102,10 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 ## Change terminal color
 `git config --global color.ui auto`
 
+## Show only certain type of files (modified/deleted/renamed, etc)
+`--diff-filter=[(A|C|D|M|R|T|U|X|B)…​[*]]`
+Select only files that are Added (A), Copied (C), Deleted (D), Modified (M), Renamed (R), have their type (i.e. regular file, symlink, submodule, …​) changed (T), are Unmerged (U), are Unknown (X), or have had their pairing Broken (B)
+
 
 
 ## SQL cheetsheet
