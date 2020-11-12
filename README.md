@@ -106,7 +106,8 @@ It's very likely that you don't have the ssh key set up properly. Please go to [
 `--diff-filter=[(A|C|D|M|R|T|U|X|B)…​[*]]`
 Select only files that are Added (A), Copied (C), Deleted (D), Modified (M), Renamed (R), have their type (i.e. regular file, symlink, submodule, …​) changed (T), are Unmerged (U), are Unknown (X), or have had their pairing Broken (B)
 
-
+## Add all modified/deleted files
+`git add -u`
 
 ## SQL cheetsheet
 ![SQL Cheetsheet](./SQLCheetSheet.jpg "SQLCheetSheet")
