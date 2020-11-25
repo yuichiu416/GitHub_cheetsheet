@@ -109,6 +109,9 @@ Select only files that are Added (A), Copied (C), Deleted (D), Modified (M), Ren
 ## Add all modified/deleted files
 `git add -u`
 
+## Push to a different branch
+`git push origin <local name>:<remote name>`
+
 ## SQL cheetsheet
 ![SQL Cheetsheet](./SQLCheetSheet.jpg "SQLCheetSheet")
 
