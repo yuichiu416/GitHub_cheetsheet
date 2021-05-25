@@ -112,6 +112,16 @@ Select only files that are Added (A), Copied (C), Deleted (D), Modified (M), Ren
 ## Push to a different remote branch
 `git push origin <local name>:<remote name>`
 
+## configs
+
+`git config --global pull.rebase true`
+
+`git config --global fetch.prune true`
+
+`git config --global diff.colorMoved zebra`
+[reference](https://spin.atomicobject.com/2020/05/05/git-configurations-default/)
+
+
 ## SQL cheetsheet
 ![SQL Cheetsheet](./SQLCheetSheet.jpg "SQLCheetSheet")
 
