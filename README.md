@@ -112,6 +112,13 @@ Select only files that are Added (A), Copied (C), Deleted (D), Modified (M), Ren
 ## Push to a different remote branch
 `git push origin <local name>:<remote name>`
 
+## Buffer related error
+```
+git config --global http.postBuffer 500M
+git config --global http.maxRequestBuffer 100M
+git config --global core.compression 0
+```
+
 ## configs
 
 `git config --global pull.rebase true`
@@ -119,6 +126,8 @@ Select only files that are Added (A), Copied (C), Deleted (D), Modified (M), Ren
 `git config --global fetch.prune true`
 
 `git config --global diff.colorMoved zebra`
+
+
 [reference](https://spin.atomicobject.com/2020/05/05/git-configurations-default/)
 
 
